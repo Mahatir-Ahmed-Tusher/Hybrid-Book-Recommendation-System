@@ -1,0 +1,30 @@
+Libraries and Dependencies
+This project relies on the following libraries:
+
+NumPy: For numerical computations and linear algebra operations.
+Pandas: For data manipulation and handling CSV files.
+Matplotlib and Seaborn: For data visualization.
+Scikit-learn: For implementing machine learning algorithms like collaborative filtering.
+Surprise: For matrix factorization (Singular Value Decomposition - SVD) and recommendation system utilities.
+Warnings: To suppress unnecessary warnings during execution.
+What Has Been Done
+Data Preparation: Loaded datasets (Books.csv, Users.csv, Ratings.csv) for books, users, and their ratings.
+Data Cleaning: Addressed missing values and merged datasets into a single dataframe.
+Feature Engineering: Extracted relevant features and created a pivot table for the user-item matrix.
+Modeling:
+Implemented a hybrid recommendation model combining Collaborative Filtering (Cosine Similarity) and SVD.
+Evaluated the model with metrics like RMSE, MAE, Precision@K, and Recall@K.
+Visualization: Used heatmaps and scatter plots to represent rating distributions and model performance.
+Execution Steps
+Install the required libraries:
+pip install pandas numpy matplotlib seaborn scikit-surprise
+
+Clone the repository and navigate to the directory.
+Place the datasets (Books.csv, Users.csv, Ratings.csv) in the working directory.
+Open the Jupyter Notebook file (DAA_Book_Recommendation_System.ipynb) in an environment like Google Colab or Jupyter Notebook.
+Execute the cells sequentially to reproduce the results and visualize the findings.
+
+To-Do for Execution
+Ensure the datasets (Books.csv, Users.csv, Ratings.csv) are available in the specified paths.
+Verify that all dependencies are installed and compatible with the Python version in use.
+Adjust paths and environment-specific settings (e.g., Colab's file paths) if necessary.
