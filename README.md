@@ -1,6 +1,9 @@
 # Hybrid Book Recommendation System
 
 This project presents a **Hybrid Book Recommendation System** that combines **Cosine Similarity** and **Singular Value Decomposition (SVD)** to deliver personalized and highly accurate book recommendations. It addresses key challenges like data sparsity and scalability, making it a robust solution for modern recommendation systems.
+
+
+
 ![image](https://github.com/user-attachments/assets/9467b2f7-d3bf-4df9-a47a-e1b7d14cc882)
 Figure: Comprehensive architecture of the proposed book recommendation system.
 
